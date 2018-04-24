@@ -2,8 +2,8 @@
   "name": "eslint-config-c2-react",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "David Adams",
-  "license": "MIT",
+  "author": "Clear C2, Inc.",
+  "license": "ISC",
   "bin": {
     "c2-pre-commit": "./pre-commit"
   },
@@ -16,8 +16,6 @@
     "standard",
     "react"
   ],
-  "author": "Clear C2, Inc.",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/ClearC2/eslint-config-c2-react/issues"
   },
