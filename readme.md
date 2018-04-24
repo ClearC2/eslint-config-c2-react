@@ -17,7 +17,7 @@ You may have references to other `eslint-config-*` and `eslint-plugin-*` package
 
 ## Install
 ```sh
-yarn add -D husky@next eslint-config-c2-react@^1.0.0
+yarn add -D husky@next eslint-config-c2-react
 ```
 
 Yarn will tell you what dependencies you are missing from the packages `eslint-config-c2-react` references as peer dependencies.
