@@ -40,7 +40,7 @@ Create an `.eslintrc.json` file in the root of your project with the following c
 }
 ```
 
-Create in `.eslintignore` file with files and folders that should **not** be linted. Example:
+Create an `.eslintignore` file with files and folders that should **not** be linted. Example:
 ```
 docs/
 src/index.ejs
