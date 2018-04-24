@@ -2,6 +2,19 @@
 
 An ESLint Shareable Config for React/JSX support in JavaScript Standard Style
 
+## Pre Install
+
+If your project already has an eslint ruleset that you're converting, remove all eslint dependencies from your `package.json` file.
+
+```
+yarn remove babel-eslint eslint \
+eslint-plugin-import eslint-plugin-node \
+eslint-plugin-promise eslint-plugin-react \
+eslint-plugin-standard
+``` 
+
+You may have references to other `eslint-config-*` and `eslint-plugin-*` packages. Remove those as well.
+
 ## Install
 ```
 yarn add -D husky@next eslint-config-c2-react@^1.0.0
