@@ -15,7 +15,7 @@ eslint-plugin-standard
 
 You may have references to other `eslint-config-*` and `eslint-plugin-*` packages. Remove those as well.
 
-## Install
+## Install package and dependencies
 ```sh
 yarn add -D husky@next lint-staged eslint-config-c2-react
 ```
@@ -29,7 +29,9 @@ Install these peer dependencies. At the time of creating this readme, that would
 ```
 yarn add -D eslint eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-standard
 ```
+Attempting to manually lint a file(see below on how) will also tell you which packages are missing.
 
+## Configure eslint
 Create an `.eslintrc.json` file in the root of your project with the following contents:
 
 ```json
@@ -48,7 +50,7 @@ lib/
 dist/
 ```
 
-## pre-commit
+## Configure the pre-commit hook
 
 Using a combination of [husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged), configure the
 pre-commit hook by adding the following to your project/package's `package.json` file.
