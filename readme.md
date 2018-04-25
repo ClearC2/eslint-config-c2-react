@@ -15,7 +15,7 @@ eslint-plugin-standard
 
 You may have references to other `eslint-config-*` and `eslint-plugin-*` packages. Remove those as well.
 
-## Install package and dependencies
+## Install
 ```sh
 yarn add -D eslint-config-c2-react
 ```
