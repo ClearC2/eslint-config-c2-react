@@ -20,17 +20,6 @@ You may have references to other `eslint-config-*` and `eslint-plugin-*` package
 yarn add -D husky@next lint-staged eslint-config-c2-react
 ```
 
-Yarn will tell you what dependencies you are missing from the packages `eslint-config-c2-react` references as peer dependencies.
-
-![dependencies](docs/deps.png)
-
-Install these peer dependencies. At the time of creating this readme, that would look like this:
-
-```
-yarn add -D eslint eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-standard
-```
-Attempting to manually lint a file(see below on how) will also tell you which packages are missing.
-
 ## Configure eslint
 Create an `.eslintrc.json` file in the root of your project with the following contents:
 
