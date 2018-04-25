@@ -17,7 +17,7 @@ You may have references to other `eslint-config-*` and `eslint-plugin-*` package
 
 ## Install
 ```sh
-yarn add -D husky@next eslint-config-c2-react
+yarn add -D husky@next lint-staged eslint-config-c2-react
 ```
 
 Yarn will tell you what dependencies you are missing from the packages `eslint-config-c2-react` references as peer dependencies.
@@ -50,15 +50,20 @@ dist/
 
 ## pre-commit
 
-Add the following [husky](https://github.com/typicode/husky) pre-commit hook to your project/package's `package.json` file:
+Using a combination of [husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged), configure the
+pre-commit hook by adding the following to your project/package's `package.json` file.
 
 ```
 "husky": {
   "hooks": {
-    "pre-commit": "./node_modules/.bin/c2-pre-commit"
+    "pre-commit": "lint-staged"
   }
 },
+"lint-staged": {
+  "src/**/*.js": "eslint"
+},
 ```
+The above will lint all `.js` file anywhere within and below the `src` directory.
 
 ## Tips
 You can always lint your files before you attempt to commit. Example:

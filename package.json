@@ -4,9 +4,6 @@
   "main": "index.js",
   "author": "Clear C2, Inc.",
   "license": "ISC",
-  "bin": {
-    "c2-pre-commit": "./pre-commit"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ClearC2/eslint-config-c2-react.git"
