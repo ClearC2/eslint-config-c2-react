@@ -15,6 +15,11 @@ eslint-plugin-standard
 
 You may have references to other `eslint-config-*` and `eslint-plugin-*` packages. Remove those as well.
 
+Remove your existing pre-commit hook if you have have one.
+```sh
+rm -rf .git/hooks/pre-commit
+```
+
 ## Install
 ```sh
 yarn add -D eslint-config-c2-react
