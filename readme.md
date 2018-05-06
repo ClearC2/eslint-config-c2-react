@@ -56,7 +56,8 @@ pre-commit hook by adding the following to your project/package's `package.json`
   }
 },
 "lint-staged": {
-  "src/**/*.js": "eslint"
+  "src/**/*.js": "eslint",
+  "test/**/*.js": "eslint"
 },
 ```
 The above will lint all `.js` file anywhere within and below the `src` directory.
