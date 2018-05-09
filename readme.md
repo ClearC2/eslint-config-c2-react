@@ -15,7 +15,12 @@ eslint-plugin-standard
 
 You may have references to other `eslint-config-*` and `eslint-plugin-*` packages. Remove those as well.
 
-## Install package and dependencies
+Remove your existing pre-commit hook if you have have one.
+```sh
+rm -rf .git/hooks/pre-commit
+```
+
+## Install
 ```sh
 yarn add -D eslint-config-c2-react
 ```
@@ -51,7 +56,8 @@ pre-commit hook by adding the following to your project/package's `package.json`
   }
 },
 "lint-staged": {
-  "src/**/*.js": "eslint"
+  "src/**/*.js": "eslint",
+  "test/**/*.js": "eslint"
 },
 ```
 The above will lint all `.js` file anywhere within and below the `src` directory.
