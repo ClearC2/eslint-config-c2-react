@@ -4,13 +4,15 @@ module.exports = {
     'standard-react'
   ],
   parser: 'babel-eslint',
-  globals: {
-    describe: false,
-    beforeEach: false,
-    afterEach: false,
-    it: false
+  env: {
+    mocha: true
   },
   rules: {
-    'no-console': 'error'
+    'no-console': 'error',
+    'react/no-unused-props': 'off',
+    'key-spacing': ['error', {mode: 'strict'}],
+    'object-curly-spacing': ['error', 'never'],
+    'array-bracket-spacing': ['error', 'never'],
+    'max-len': ['error', {code: 120}]
   }
 }
