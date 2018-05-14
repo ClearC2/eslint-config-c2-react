@@ -13,6 +13,6 @@ module.exports = {
     'key-spacing': ['error', {mode: 'strict'}],
     'object-curly-spacing': ['error', 'never'],
     'array-bracket-spacing': ['error', 'never'],
-    'max-len': ['error', {code: 120}]
+    'max-len': ['error', {code: 120, ignoreComments: true}]
   }
 }
