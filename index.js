@@ -9,7 +9,7 @@ module.exports = {
   },
   rules: {
     'no-console': 'error',
-    'react/no-unused-props': 'off',
+    'react/no-unused-prop-types': 'off',
     'key-spacing': ['error', {mode: 'strict'}],
     'object-curly-spacing': ['error', 'never'],
     'array-bracket-spacing': ['error', 'never'],
