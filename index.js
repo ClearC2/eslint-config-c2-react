@@ -14,5 +14,12 @@ module.exports = {
     'object-curly-spacing': ['error', 'never'],
     'array-bracket-spacing': ['error', 'never'],
     'max-len': ['error', {code: 120, ignoreComments: true}]
+  },
+  globals: {
+    FormData: false,
+    describe: false,
+    before: false,
+    beforeEach: false,
+    it: false
   }
 }
