@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-c2-react",
-  "version": "1.4.3",
+  "version": "1.4.5",
   "main": "index.js",
   "author": "Clear C2, Inc.",
   "license": "ISC",
@@ -18,16 +18,16 @@
   },
   "homepage": "https://github.com/ClearC2/eslint-config-c2-react#readme",
   "dependencies": {
-    "babel-eslint": "^8.2.3",
+    "babel-eslint": "^8.2.6",
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
     "eslint-config-standard-react": "^6.0.0",
-    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.7.0",
-    "eslint-plugin-react": "^7.7.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "husky": "^1.0.0-rc.2",
-    "lint-staged": "^7.0.4"
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^3.1.0",
+    "husky": "^1.2.0",
+    "lint-staged": "^7.3.0"
   }
 }
