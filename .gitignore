@@ -63,8 +63,6 @@ typings/
 # file systems
 .DS_Store
 
-# package managers
-package-lock.json
 .idea
 .nyc_output
 test-results.xml
