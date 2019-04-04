@@ -22,7 +22,7 @@ rm -rf .git/hooks/pre-commit
 
 ## Install
 ```sh
-yarn add -D eslint-config-c2-react
+yarn add -D @clearc2/eslint-config-c2-react
 ```
 
 ## Configure eslint
