@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-c2-react",
+  "name": "@clearc2/eslint-config-c2-react",
   "version": "1.4.5",
   "main": "index.js",
   "author": "Clear C2, Inc.",
@@ -17,6 +17,24 @@
     "url": "https://github.com/ClearC2/eslint-config-c2-react/issues"
   },
   "homepage": "https://github.com/ClearC2/eslint-config-c2-react#readme",
+  "scripts": {
+    "cm": "git-cz",
+    "semantic-release": "semantic-release"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "release": {
+    "branch": "master",
+    "extends": "c2-semantic-release",
+    "npmPublish": true,
+    "publish": [
+      "@semantic-release/github",
+      "@semantic-release/npm"
+    ]
+  },
   "dependencies": {
     "babel-eslint": "^8.2.6",
     "eslint": "^4.19.1",
@@ -26,8 +44,12 @@
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-hooks": "^1.6.0",
     "eslint-plugin-standard": "^3.1.0",
     "husky": "^1.2.0",
     "lint-staged": "^7.3.0"
+  },
+  "devDependencies": {
+    "c2-semantic-release": "ClearC2/c2-semantic-release#semver:^2.0.0"
   }
 }
