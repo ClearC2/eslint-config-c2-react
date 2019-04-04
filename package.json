@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Clear C2, Inc.",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ClearC2/eslint-config-c2-react.git"
