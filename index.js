@@ -19,7 +19,8 @@ module.exports = {
     'array-bracket-spacing': ['error', 'never'],
     'max-len': ['error', {code: 120, ignoreComments: true}],
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn'
+    'react-hooks/exhaustive-deps': 'warn',
+    'react/no-did-update-set-state': 'off'
   },
   globals: {
     FormData: false,
