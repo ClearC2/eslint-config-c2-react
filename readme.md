@@ -22,7 +22,11 @@ rm -rf .git/hooks/pre-commit
 
 ## Install
 ```sh
+# for yarn
 yarn add -D @clearc2/eslint-config-c2-react
+
+# for npm
+npm install -D @clearc2/eslint-config-c2-react
 ```
 
 ## Configure eslint
@@ -31,7 +35,7 @@ Create an `.eslintrc.json` file in the root of your project with the following c
 ```json
 {
     "extends": [
-      "c2-react"
+      "@clearc2/c2-react"
     ]
 }
 ```
