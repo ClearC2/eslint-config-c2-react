@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/ClearC2/eslint-config-c2-react/compare/v2.0.0...v2.0.1) (2019-05-03)
+
+
+### Bug Fixes
+
+* upgrade eslint-plugin-react ([2ca0863](https://github.com/ClearC2/eslint-config-c2-react/commit/2ca0863))
+
 # [2.0.0](https://github.com/ClearC2/eslint-config-c2-react/compare/v1.5.0...v2.0.0) (2019-04-08)
 
 
