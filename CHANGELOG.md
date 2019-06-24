@@ -1,3 +1,10 @@
+## [2.0.5](https://github.com/ClearC2/eslint-config-c2-react/compare/v2.0.4...v2.0.5) (2019-06-24)
+
+
+### Bug Fixes
+
+* update package-lock.json file ([5567c0e](https://github.com/ClearC2/eslint-config-c2-react/commit/5567c0e))
+
 ## [2.0.4](https://github.com/ClearC2/eslint-config-c2-react/compare/v2.0.3...v2.0.4) (2019-06-24)
 
 
