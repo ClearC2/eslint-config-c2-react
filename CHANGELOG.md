@@ -1,3 +1,10 @@
+## [2.0.4](https://github.com/ClearC2/eslint-config-c2-react/compare/v2.0.3...v2.0.4) (2019-06-24)
+
+
+### Bug Fixes
+
+* upgrade deps ([07cc567](https://github.com/ClearC2/eslint-config-c2-react/commit/07cc567))
+
 ## [2.0.3](https://github.com/ClearC2/eslint-config-c2-react/compare/v2.0.2...v2.0.3) (2019-06-24)
 
 
