@@ -28,5 +28,10 @@ module.exports = {
     before: false,
     beforeEach: false,
     it: false
+  },
+  settings: {
+    react: {
+      version: 'detect'
+    }
   }
 }
