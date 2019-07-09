@@ -1,3 +1,10 @@
+## [2.0.6](https://github.com/ClearC2/eslint-config-c2-react/compare/v2.0.5...v2.0.6) (2019-07-09)
+
+
+### Bug Fixes
+
+* add react version detection ([2ad1123](https://github.com/ClearC2/eslint-config-c2-react/commit/2ad1123))
+
 ## [2.0.5](https://github.com/ClearC2/eslint-config-c2-react/compare/v2.0.4...v2.0.5) (2019-06-24)
 
 
