@@ -1,6 +1,6 @@
 {
   "name": "@clearc2/eslint-config-c2-react",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "main": "index.js",
   "author": "Clear C2, Inc.",
   "license": "ISC",

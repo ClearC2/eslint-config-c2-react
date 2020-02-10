@@ -1,3 +1,10 @@
+## [2.0.8](https://github.com/ClearC2/eslint-config-c2-react/compare/v2.0.7...v2.0.8) (2020-02-10)
+
+
+### Bug Fixes
+
+* make exhaustive deps error instead of warn ([93e5532](https://github.com/ClearC2/eslint-config-c2-react/commit/93e5532))
+
 ## [2.0.7](https://github.com/ClearC2/eslint-config-c2-react/compare/v2.0.6...v2.0.7) (2019-08-05)
 
 
