@@ -1,7 +1,8 @@
 module.exports = {
   extends: [
     'standard',
-    'standard-react'
+    'standard-react',
+    'plugin:prettier/recommended'
   ],
   plugins: [
     'react-hooks'
