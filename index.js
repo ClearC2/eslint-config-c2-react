@@ -6,7 +6,7 @@ module.exports = {
   plugins: [
     'react-hooks'
   ],
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   env: {
     mocha: true,
     jest: true
