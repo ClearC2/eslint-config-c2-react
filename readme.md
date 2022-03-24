@@ -49,19 +49,14 @@ dist/
 ```
 
 ## Configure the pre-commit hook
-
-Using a combination of [husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged), configure the
-pre-commit hook by adding the following to your project/package's `package.json` file.
-
+Use `lint-staged`'s [automatic setup to install](https://github.com/okonet/lint-staged#installation-and-setup).
 ```
-"husky": {
-  "hooks": {
-    "pre-commit": "lint-staged"
-  }
-},
+npx mrm@2 lint-staged
+```
+Add a file pattern to your `package.json`.
+```
 "lint-staged": {
-  "src/**/*.js": "eslint",
-  "test/**/*.js": "eslint"
+  "src/**/*.js": "eslint"
 },
 ```
 The above will lint all `.js` file anywhere within and below the `src` directory.
