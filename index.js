@@ -1,12 +1,13 @@
 module.exports = {
   extends: [
     'standard',
+    'standard-jsx',
     'standard-react'
   ],
   plugins: [
     'react-hooks'
   ],
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   env: {
     mocha: true,
     jest: true
@@ -20,7 +21,10 @@ module.exports = {
     'max-len': ['error', {code: 120, ignoreComments: true}],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'error',
-    'react/no-did-update-set-state': 'off'
+    'react/no-did-update-set-state': 'off',
+    'react/jsx-fragments': 'off',
+    'react/jsx-no-bind': ['error', {allowFunctions:  true, allowArrowFunctions: true}],
+    'multiline-ternary': 'off'
   },
   globals: {
     FormData: false,
