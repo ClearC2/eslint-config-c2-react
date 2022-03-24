@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/ClearC2/eslint-config-c2-react/compare/v3.0.0...v3.0.1) (2022-03-24)
+
+
+### Bug Fixes
+
+* **deps:** trigger new version for upgraded deps ([b93020e](https://github.com/ClearC2/eslint-config-c2-react/commit/b93020e))
+
 # [3.0.0](https://github.com/ClearC2/eslint-config-c2-react/compare/v2.0.8...v3.0.0) (2022-03-24)
 
 
