@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/ClearC2/eslint-config-c2-react/compare/v2.0.8...v3.0.0) (2022-03-24)
+
+
+### Bug Fixes
+
+* upgrade eslint ([#31](https://github.com/ClearC2/eslint-config-c2-react/issues/31)) ([27b472d](https://github.com/ClearC2/eslint-config-c2-react/commit/27b472d))
+
+
+### BREAKING CHANGES
+
+* requires node > ^12.22.0. require host to install husky/lint-staged
+
 ## [2.0.8](https://github.com/ClearC2/eslint-config-c2-react/compare/v2.0.7...v2.0.8) (2020-02-10)
 
 
