@@ -24,7 +24,8 @@ module.exports = {
     'react/no-did-update-set-state': 'off',
     'react/jsx-fragments': 'off',
     'react/jsx-no-bind': ['error', {allowFunctions:  true, allowArrowFunctions: true}],
-    'multiline-ternary': 'off'
+    'multiline-ternary': 'off',
+    'react/jsx-handler-names': 'off'
   },
   globals: {
     FormData: false,
